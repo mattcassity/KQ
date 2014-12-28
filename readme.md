@@ -3,5 +3,7 @@ Kindling Quarterly Site
 
 # About
 
-A quaterly print journal for fathers
+Web site for a quarterly print journal for fathers.
+
+
 
