@@ -208,6 +208,9 @@ a img:hover {
   .sm-center {
     text-align: center;
   }
+  .issues img {
+    max-width: 90%;
+  }
 }
 
 /*
