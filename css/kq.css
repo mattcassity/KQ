@@ -5,7 +5,6 @@ h2 {
   padding-bottom: .4em;
 }
 
-
 h4 {
   font-size: 1.3em;
   line-height: 1.4em;
@@ -93,6 +92,30 @@ a img:hover {
   background-image: none;
 }
 
+.btn-info {
+  color: #fff;
+  background-color: #0303ff;
+  border-color: #0303ff;
+  text-decoration: none;
+}
+  
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  color: #F8F8F8 ;
+  background-color: #b3b3ff;
+  border-color: #b3b3ff;
+}
+
+.well h3 {
+  font-weight: 700;
+  color: #0303ff;
+  padding-bottom: .8em;
+  margin-top: 5px;
+}
+
 .form-control {
   background-color: #F8F8F8;
   border-color: #0303ff;
@@ -128,6 +151,18 @@ a img:hover {
 
 .confetti {
   background:url(../img/confetti.png);
+}
+
+.product {
+  background:url(../img/waves-light.png);
+ }
+ 
+.white-text {
+  color: white;
+}
+
+ .blue-noise {
+  background:url(../img/blue-noise.gif);
 }
 
 .info {
@@ -239,5 +274,24 @@ a img:hover {
 .genericon-edit:before {     content: '\f411';}
 .genericon-show:before {     content: '\f403';}
 
+/* CAROUSEL */
 
-
+/* Carousel base class */
+.carousel {
+  padding: 1em 0;
+}
+ 
+.carousel-inner > .item > img {
+  margin: auto;
+}
+ 
+.carousel-control.left,.carousel-control.right {
+  background-image: none;
+  color: #b3b3ff;
+}
+ 
+ .carousel-control {
+     text-shadow: none;
+} 
+ 
+ 
