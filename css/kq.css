@@ -1,4 +1,12 @@
-h2 {
+body {
+  font-family: 'Karla', sans-serif;
+  color: #0303ff;
+  background:url(../img/waves.png);
+  max-width: 1600px;
+  margin: 0px auto;
+ }
+
+ h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   color: #0303ff;
@@ -11,12 +19,6 @@ h4 {
   font-weight: 700;
   padding-bottom: 1.2em;
 }
-
-body {
-  font-family: 'Karla', sans-serif;
-  color: #0303ff;
-  background:url(../img/waves.png);
- }
 
 ::-moz-selection { /* Code for Firefox */
     background: rgb(217,217,234);
@@ -70,6 +72,9 @@ a img:hover {
 .footer .row {
   padding: .5em 0 1.5em 0;
 }
+.footer .col-md-2 {
+  padding:0 0 .5em 0;
+}
 
 .btn-primary {
   color: #0303ff;
@@ -105,6 +110,10 @@ a img:hover {
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
   color: #F8F8F8 ;
+  background-color: #b3b3ff;
+  border-color: #b3b3ff;
+}
+.product-info .disabled {
   background-color: #b3b3ff;
   border-color: #b3b3ff;
 }
@@ -161,7 +170,7 @@ a img:hover {
   color: white;
 }
 
- .blue-noise {
+ .product-info {
   background:url(../img/blue-noise.gif);
 }
 
@@ -184,8 +193,14 @@ a img:hover {
 }
  
 .vertical-align {
-    display: flex;
-    align-items: center;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
 @media (min-width: 992px) { 
@@ -236,8 +251,8 @@ a img:hover {
   /*width: 16px;
   height: 16px;*/
   -webkit-font-smoothing: antialiased;
-  /*font-size: 64px;
-  line-height: 1;*/
+  /*font-size: 64px;*/
+  line-height: 1;
   font-family: 'Genericons';
   text-decoration: inherit;
   font-weight: normal;
